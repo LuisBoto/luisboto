@@ -1,7 +1,7 @@
 <div align="center" markdown="1">
 
 # Welcome!🦦
-I'm Luis, a college student & software engineer mainly specialized in Java & Javascript.
+I'm Luis, a college student & software engineer mainly fluent in Java & Javascript.
 
 You're welcome to check out some of my personal projects!
 
