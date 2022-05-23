@@ -2,8 +2,8 @@
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
 let minimumResize = 1;
-let canvasWidth = 1920;
-let canvasHeight = 1080;
+let canvasWidth = window.innerWidth;
+let canvasHeight = window.innerHeight;
 
 let layer;
 
