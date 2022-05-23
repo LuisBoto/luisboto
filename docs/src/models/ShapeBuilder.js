@@ -25,7 +25,7 @@ function getRandomShape() {
 
 function getRandomMovement() {
     return new Movement(
-        -canvasWidth*0.3,
+        -canvasWidth*0.5,
         Math.floor( Math.random() * canvasHeight*3 ),
         (Math.random()*2) + 1
     );
