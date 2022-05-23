@@ -1,41 +1,26 @@
 class Shape {
 
-    constructor(x, y, speed, size) {
-        this.x = x;
-        this.y = y;
-        this.speed = speed;
-        this.size = size;
+    constructor(movement, drawStrategy) {
+        this.movement = movement;
+        this.drawStrategy = drawStrategy;
     }
 
     update() {
-        this.x += this.speed;
-        this.y -= this.speed;
-        this.checkBoundaries();
+        this.movement.applySpeed();
+        this.checkShapeChange();
     }
 
     draw() {
-        context.beginPath();
-        context.arc(this.x, this.y, this.particleRadius, 0, 2*Math.PI)
-        context.lineWidth = 2;
-        context.stroke();
-        context.fillStyle = "red";
-        context.fill();
-        context.closePath();
-        context.beginPath();
-        context.arc(this.x, this.y, 10, 90, 270);
-        context.fillStyle = "white";
-        context.fill();
-        context.closePath();
+        this.drawStrategy.draw(this.movement.x, this.movement.y);
     }
 
-
-    checkBoundaries() {
-        if (this.x > canvasWidth*1.5 ||
-            this.x < -canvasWidth*1.5 ||
-            this.y > canvasHeight*1.5 ||
-            this.y < -canvasHeight*1.5)
+    checkShapeChange() {
+        if (this.movement.isOutOfScreen()) 
             this.changeShape();
     }
 
-    changeShape() {}
+    changeShape() {
+        this.drawStrategy = getRandomFigureStrategy();
+        this.movement = getRandomMovement();
+    }
 }

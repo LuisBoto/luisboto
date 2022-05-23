@@ -1,13 +1,13 @@
-class RectangularShape extends Shape {
+class RectangularFigure extends DrawStrategy {
 
-    constructor(x, y, speed, size) {
-        super(x, y, speed, size);
+    constructor(size) {
+        super(size);
     }
 
-    draw() {
+    draw(x, y) {
         context.fillStyle = "#1a237e";
         context.save();
-        context.translate(this.x, this.y);
+        context.translate(x, y);
         context.rotate(45 * (Math.PI / 180));
         context.fillRect(0, 0, 50*this.size, 500*this.size);
         context.stroke();
