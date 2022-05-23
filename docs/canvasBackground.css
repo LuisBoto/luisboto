@@ -4,7 +4,8 @@ canvas{
   background: #000;
   margin: 0 0 0 0;
   z-index:0;
-  position:absolute;
+  position: fixed;
+  top: 0px;
   height:100%; 
   width:100%;
 }

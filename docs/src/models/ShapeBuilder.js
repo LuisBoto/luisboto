@@ -26,14 +26,14 @@ function getRandomShape() {
 function getRandomMovement() {
     return new Movement(
         -canvasWidth*0.5,
-        Math.floor( Math.random() * canvasHeight*3 ),
+        Math.floor( Math.random() * (canvasHeight + (canvasWidth*1.5)/Math.tan(45)) + canvasHeight/3 ),
         (Math.random()*2) + 1
     );
 }
 
 function getRandomFigureStrategy() {
     let index = Math.floor(Math.random()*figures.length);
-    return figures[index](Math.random());
+    return figures[index](Math.random()*0.75+0.15);
 }
 
 function getRandomColor() {
