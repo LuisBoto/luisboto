@@ -11,7 +11,7 @@ let layer;
 
 function start() {
     layer = new MainLayer();
-    setInterval(loop, 1000 / 30);
+    setInterval(loop, 1000 / 20);
 }
 
 function loop(){

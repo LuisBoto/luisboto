@@ -1,4 +1,16 @@
-p {
+h1 {
+  margin: auto;
+  width: 100%;
+  text-align: center;
   color: white;
   font-family: 'Times New Roman', Times, serif;
+  text-shadow: #000 1px 0 10px;
+}
+
+p {
+  margin: auto;
+  width: 50%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: #000 1px 0 10px;
 }
