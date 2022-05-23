@@ -1,7 +1,9 @@
 // Canvas & context
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
-let minimumResize = 1;
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 let canvasWidth = window.innerWidth;
 let canvasHeight = window.innerHeight;
 
@@ -18,17 +20,13 @@ function loop(){
 }
 
 // Resize
-window.addEventListener('load', resize, false);
+window.addEventListener('resize', resize, false);
 function resize() {
     console.log("Resize")
-    let resizeWidth = parseFloat(window.innerWidth / canvas.width);
-    let resizeHeight = parseFloat(window.innerHeight / canvas.height);
-
-    minimumResize = Math.min(resizeWidth, resizeHeight);
-    canvas.width = canvas.width*minimumResize;
-    canvas.height = canvas.height*minimumResize;
-
-    context.scale(minimumResize, minimumResize);
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    canvasWidth = window.innerWidth;
+    canvasHeight = window.innerHeight;
 }
 
 start();

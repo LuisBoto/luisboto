@@ -27,13 +27,13 @@ function getRandomMovement() {
     return new Movement(
         -canvasWidth*0.3,
         Math.floor( Math.random() * canvasHeight*3 ),
-        (Math.random() * 6) + 1
+        (Math.random() * 3) + 1
     );
 }
 
 function getRandomFigureStrategy() {
     let index = Math.floor(Math.random()*figures.length);
-    return figures[index](Math.random()+0.2);
+    return figures[index](Math.random());
 }
 
 function getRandomColor() {
