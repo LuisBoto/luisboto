@@ -11,7 +11,7 @@ class Movement {
     }
 
     isOutOfScreen() {
-        return (this.x > canvasWidth*1.1 ||
+        return (this.x > canvasWidth*1.5 ||
             this.y < -canvasHeight*0.5);
     }
 }

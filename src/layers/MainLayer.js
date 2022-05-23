@@ -22,7 +22,7 @@ class MainLayer extends Layer {
     }
 
     drawBackground() {
-        context.fillStyle = "#000a12";
+        context.fillStyle = "#090a0a";
         context.fillRect(0, 0, canvasWidth, canvasHeight);
     }
 
