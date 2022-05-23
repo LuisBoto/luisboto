@@ -7,7 +7,7 @@ class SquareFigure extends DrawStrategy {
 
     draw(x, y) {
         context.translate(x, y);
-        context.rotate(46 * (Math.PI / 180));
+        context.rotate(45 * (Math.PI / 180));
         context.beginPath();
         if (this.stroked)
             context.strokeRect(0, 0, 100*this.size, 100*this.size);

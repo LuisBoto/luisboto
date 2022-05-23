@@ -3,7 +3,7 @@ let figures = [
     (size) => new RectangularFigure(size),
     (size) => new CircleFigure(size),
     (size) => new SquareFigure(size),
-    (size) => new StarFigure(size)
+    // (size) => new StarFigure(size)
 ];
 
 let colors = [
