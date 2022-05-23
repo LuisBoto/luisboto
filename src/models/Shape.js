@@ -1,7 +1,6 @@
 class Shape {
 
     constructor(x, y, speed) {
-     
         this.x = x;
         this.y = y;
         this.speed = speed;
@@ -9,7 +8,7 @@ class Shape {
 
     update() {
         this.x += this.speed;
-        this.y += this.speed;
+        this.y -= this.speed;
         this.checkBoundaries();
     }
 

@@ -7,7 +7,7 @@ class MainLayer extends Layer {
 
     initiate() {
         this.shapes = [];
-        this.shapes.push(new Shape(0, 0, 10));
+        this.shapes.push(new ArrowShape(0, 0, 2));
     }
 
     update() {
@@ -15,9 +15,13 @@ class MainLayer extends Layer {
     }
 
     draw() {
-        context.fillStyle = "blue";
-        context.fillRect(0, 0, canvasWidth, canvasHeight);
+        this.drawBackground();
         this.shapes.forEach(shape => shape.draw());
+    }
+
+    drawBackground() {
+        context.fillStyle = "#000a12";
+        context.fillRect(0, 0, canvasWidth, canvasHeight);
     }
 
 }
