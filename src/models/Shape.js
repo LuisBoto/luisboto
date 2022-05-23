@@ -1,9 +1,10 @@
 class Shape {
 
-    constructor(x, y, speed) {
+    constructor(x, y, speed, size) {
         this.x = x;
         this.y = y;
         this.speed = speed;
+        this.size = size;
     }
 
     update() {
@@ -29,13 +30,12 @@ class Shape {
 
 
     checkBoundaries() {
-        if (this.x > canvasWidth)
-            this.x = this.x%canvasWidth;
-        if (this.x < 0)
-            this.x = canvasWidth-this.x;
-        if (this.y > canvasHeight)
-            this.y = this.y%canvasHeight
-        if (this.y < 0)
-            this.y = canvasHeight-this.y;
+        if (this.x > canvasWidth*1.5 ||
+            this.x < -canvasWidth*1.5 ||
+            this.y > canvasHeight*1.5 ||
+            this.y < -canvasHeight*1.5)
+            this.changeShape();
     }
+
+    changeShape() {}
 }

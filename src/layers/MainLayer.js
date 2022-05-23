@@ -7,7 +7,7 @@ class MainLayer extends Layer {
 
     initiate() {
         this.shapes = [];
-        this.shapes.push(new ArrowShape(0, 0, 2));
+        this.shapes.push(new RectangularShape(0, canvasHeight*1.5, 10, 1));
     }
 
     update() {
