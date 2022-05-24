@@ -28,11 +28,18 @@ p {
   align-items: center;
   justify-content: space-evenly;
   margin: auto 5%;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
 }
 
 #portraitPicture {
   order: 3;
-  max-width: 30%;
+  width: 50%;
   overflow: hidden;
   border-radius: 50%;
 }
