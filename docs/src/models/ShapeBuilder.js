@@ -6,14 +6,13 @@ let figures = [
     // (size) => new StarFigure(size)
 ];
 
+let bgColor = "#fff";
 let colors = [
-    "#3183c5",
-    "#315a83",
-    "#ffffff",
-    "#ffc552",
-    "#7b1800",
-    "#cd4120",
-    "#94d5ff"
+    "#62d5b4",
+    "#bdff73",
+    "#a4d541",
+    "#ffaca4",
+    "#cdcdcd",
 ]
 
 function getRandomShape() {
