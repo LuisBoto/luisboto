@@ -45,8 +45,8 @@ p {
 
 #verticalSeparator {
   order: 2;
-  border-left: 3px solid white;
-  height: 20em;
+  border-left: 3px solid gray;
+  height: 25em;
   margin: auto 10% auto 10%;
 }
 
