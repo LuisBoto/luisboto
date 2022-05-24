@@ -2,8 +2,7 @@
 @import "./canvasBackground.css";
 
 h1, h2, h3, p {
-  width: 100%;
-  color: black;
+  color: white;
   font-family: 'Exo';
   font-style: normal; 
   font-variant: normal;
@@ -24,26 +23,25 @@ p {
 }
 
 .flexContainer {
+  position: sticky;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   align-items: center;
-  justify-content: left;
   margin: 3% 2%;
 }
 
 #portraitPicture {
-  order: 2;
-  max-width: 25%;
-  max-height: 40%;
+  order: 1;
+  max-width: 30%;
   overflow: hidden;
   border-radius: 50%;
 }
 
 #welcomeTitle {
-  order: 1;
+  order: 2;
   margin: 1%;
   text-align: center;
-  max-width: 60%;
-  font-size: 10em;
+  width: 100%;
+  font-size: 9em;
 }
 
