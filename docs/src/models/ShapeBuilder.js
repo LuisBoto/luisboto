@@ -3,15 +3,16 @@ let figures = [
     (size) => new RectangularFigure(size),
     (size) => new CircleFigure(size),
     (size) => new SquareFigure(size),
-    // (size) => new StarFigure(size)
+    (size) => new StarFigure(size)
 ];
 
-let bgColor = "#000";
+let bgColor = "#0d0d0d";
 let colors = [
-    "#016d31",
-    "#031c6e",
-    "#e8b422",
-    "#c32011",
+    "#2F2519",
+    "#D72323",
+    "#FA7D09",
+    "#FF4301",
+    "#2F8886"
 ]
 
 function getRandomShape() {
