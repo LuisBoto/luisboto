@@ -6,20 +6,18 @@ body, html {
 }
 
 canvas {
-  margin: 0 0 0 0;
-  z-index:0;
   position: fixed;
+  z-index: 0;
+  margin: 0 0 0 0;
   top: 0px;
-  height:100%; 
-  width:100%;
+  height: 100%; 
+  width: 100%;
+  filter: blur(5px);
 }
 
 #contentDiv {
-  background: #090a0a33;
-  backdrop-filter: blur(8px);
-
+  position: relative;
+  z-index: 1;  
   margin: auto;
-  width: 60%;
-  position:relative;
-  z-index:1;
+  width: 75%;
 }

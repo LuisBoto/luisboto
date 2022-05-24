@@ -1,18 +1,21 @@
-h1 {
-  margin: 0% 1%;
+h1, h2, h3, p {
   width: 100%;
-  text-align: center;
   color: white;
+  text-shadow: 
+    #000 1px 1px 1px,
+    #000 -1px 1px 1px,
+    #000 1px -1px 1px,
+    #000 -1px -1px 1px;
   font-family: 'Times New Roman', Times, serif;
-  text-shadow: #000 1px 0 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h1, h2, h3 {
+  margin: 2% 2%;
+  text-align: center;
 }
 
 p {
-  text-align: justify;
-  text-justify: inter-word;
   margin: auto;
-  width: 99%;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  text-shadow: #000 1px 0 10px;
 }
