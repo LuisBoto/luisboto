@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+@import "./canvasBackground.css";
+
+h1, h2, h3, p {
+  width: 100%;
+  color: white;
+  /*text-shadow: 
+    #000 1px 1px 1px,
+    #000 -1px 1px 1px,
+    #000 1px -1px 1px,
+    #000 -1px -1px 1px;*/
+  font-family: 'Exo';
+}
+
+h1, h2, h3 {
+  margin: 2% auto 2% auto;
+  text-align: center;
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 26.4px;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: auto;
+}
