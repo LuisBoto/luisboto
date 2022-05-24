@@ -24,7 +24,7 @@ p {
 
 .titleContainer {
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 5fr 1fr 5fr;
   grid-template-rows: 1fr;
   margin: auto 2%;
   height: 25em;
