@@ -22,13 +22,17 @@ p {
   line-height: 25px;
 }
 
-.flexContainer {
-  position: sticky;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: space-around;
+.titleContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 1fr;
   margin: auto 2%;
+  height: 25em;
+  margin: auto;
+  animation: fadein 1s;
+}
+
+h2, h3, p, hr, #verticalSeparator {
   animation: fadein 3s;
 }
 
@@ -38,26 +42,28 @@ p {
   100% { opacity:1; }
 }
 
-#portraitPicture {
-  order: 1;
-  display: block;s
-  max-width: 25%;
-  max-height: 20em;
-  border-radius: 50%;
-  margin: 0 10% 0 0;
+#welcomeTitle {
+  grid-row: 1;
+  grid-column: 1;
+  font-size: 9em;
+  align-self: center; /* Center vertically */
+  justify-self: center; /* Center horizontally */
 }
 
 #verticalSeparator {
-  order: 1;
+  grid-row: 1;
+  grid-column: 2;
   border-left: 3px solid gray;
   height: 25em;
+  justify-self: center; 
 }
 
-#welcomeTitle {
-  order: 1;
-  display: block;
-  width: 35%;
-  font-size: 9em;
-  margin: 0 0 0 10%;
+#portraitPicture {
+  grid-row: 1;
+  grid-column: 3;
+  border-radius: 50%;
+  max-height: 20em;
+  align-self: center; /* Center vertically */
+  justify-self: center; /* Center horizontally */
 }
 
