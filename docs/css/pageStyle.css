@@ -12,27 +12,27 @@ h1, h2, h3 {
   font-weight: 700; 
   font-size: xx-large;
   text-align: center;
+  margin: 2% 2%;
 }
 
 p {
   text-align: justify;
   text-justify: inter-word;
   margin: auto;
-  font-size: large;
+  font-size: normal;
   line-height: 25px;
 }
 
-.titleContainer {
+#titleContainer {
   display: grid;
-  grid-template-columns: 5fr 1fr 5fr;
+  grid-template-columns: 5fr 1fr 4fr;
   grid-template-rows: 1fr;
   margin: auto 2%;
   height: 25em;
-  margin: auto;
   animation: fadein 1s;
 }
 
-h2, h3, p, hr, #verticalSeparator {
+h2, h3, p, hr, #verticalSeparator, #expContainer {
   animation: fadein 3s;
 }
 
@@ -65,5 +65,45 @@ h2, h3, p, hr, #verticalSeparator {
   max-height: 20em;
   align-self: center; /* Center vertically */
   justify-self: center; /* Center horizontally */
+}
+
+#expContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 80%;
+  margin: 2% auto;
+}
+
+#expDescription {
+  grid-column: 3;
+  grid-row: 1 / 3;
+  align-self: center; 
+  justify-self: center; 
+  font-size: large;
+}
+
+.expLogo {
+  max-width: 6em;
+  height: 4em;
+  align-self: center; 
+  justify-self: center; 
+}
+
+.expInfo {
+  display: inline-block;
+  text-align: center;
+  justify-self: left;
+  margin-right: 10%;
+  margin-left: 0;
+}
+
+.expInfo::first-line {
+  font-size: x-large;
+}
+
+.smallBold {
+  font-size: smaller;
+  font-style: italic;
 }
 
