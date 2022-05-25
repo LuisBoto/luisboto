@@ -12,7 +12,7 @@ h1, h2, h3 {
   font-weight: 700; 
   font-size: xx-large;
   text-align: center;
-  margin: 2% 2%;
+  margin-top: 2%;
 }
 
 p {
@@ -23,23 +23,27 @@ p {
   line-height: 25px;
 }
 
-#titleContainer {
-  display: grid;
-  grid-template-columns: 5fr 1fr 4fr;
-  grid-template-rows: 1fr;
-  margin: auto 2%;
-  height: 25em;
-  animation: fadein 1s;
+/* Fade in animation */
+
+@keyframes fadein {
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
 }
 
 h2, h3, p, hr, #verticalSeparator, #expContainer {
   animation: fadein 3s;
 }
 
-@keyframes fadein {
-  0% { opacity:0; }
-  66% { opacity:0; }
-  100% { opacity:1; }
+/* Title container style */
+
+#titleContainer {
+  display: grid;
+  grid-template-columns: 5fr 1fr 4fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 2%;
+  height: 25em;
+  animation: fadein 1s;
 }
 
 #welcomeTitle {
@@ -67,12 +71,14 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   justify-self: center; /* Center horizontally */
 }
 
+/* Exp container style */
+
 #expContainer {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
   width: 80%;
-  margin: 2% auto;
+  margin: auto;
 }
 
 #expDescription {
@@ -81,6 +87,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   align-self: center; 
   justify-self: center; 
   font-size: large;
+  margin-top: 10%;
 }
 
 .expLogo {
