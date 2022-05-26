@@ -39,8 +39,10 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 
 #titleContainer {
   display: grid;
-  grid-template-columns: 5fr 1fr 4fr;
+  grid-template-columns: 4fr 1fr 4fr;
   grid-template-rows: 1fr;
+  align-items: center; /* Center vertically */
+  justify-items: center; /* Center horizontally */
   margin-bottom: 2%;
   height: 25em;
   animation: fadein 1s;
@@ -50,16 +52,42 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   grid-row: 1;
   grid-column: 1;
   font-size: 9em;
-  align-self: center; /* Center vertically */
-  justify-self: center; /* Center horizontally */
 }
 
 #verticalSeparator {
   grid-row: 1;
   grid-column: 2;
-  border-left: 3px solid gray;
   height: 25em;
-  justify-self: center; 
+  align-self: end;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center; 
+  justify-items: center; 
+}
+
+.socialNetworkImg {
+  width: 2em;
+  max-height: 5em;
+}
+
+.socialNetworkImg:hover {
+  animation: moveRound 0.5s;
+}
+
+#emailContainer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+#emailText { opacity: 0 !important; }
+#emailContainer:hover #emailText { opacity: 1 !important; }
+
+@keyframes moveRound {
+  0% { opacity:0.5; }
+  66% { opacity:0.5; }
+  100% { opacity:1; transform: rotateZ(-360deg); }
 }
 
 #portraitPicture {
@@ -67,8 +95,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   grid-column: 3;
   border-radius: 50%;
   max-height: 20em;
-  align-self: center; /* Center vertically */
-  justify-self: center; /* Center horizontally */
 }
 
 /* Exp container style */
@@ -77,6 +103,8 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   display: grid;
   grid-template-columns: 1fr 3fr 3fr;
   grid-template-rows: 1fr 1fr 1fr;
+  align-items: center; 
+  justify-items: center; 
   width: 80%;
   margin: auto;
   margin-top: 3%;
@@ -85,8 +113,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 #expDescription {
   grid-column: 3;
   grid-row: 1 / 3;
-  align-self: center; 
-  justify-self: center; 
   font-size: large;
   margin-top: 3%;
 }
@@ -94,8 +120,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 .expLogo {
   max-width: 6em;
   height: 4em;
-  align-self: center; 
-  justify-self: center; 
 }
 
 .expInfo {
