@@ -112,10 +112,11 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 }
 
 #expDescription {
-  grid-column: 3;
+  grid-column: 3 / 3;
   grid-row: 1 / 4;
   font-size: 1.3em;
-  margin-top: 3%;
+  align-self: stretch;
+  margin-top: 0;
 }
 
 .expLogo {
@@ -125,10 +126,9 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 
 .expInfo {
   display: inline-block;
-  text-align: justify;
-  text-justify: auto;
+  text-align: left;
   justify-self: left;
-  margin-right: 10%;
+  margin-right: 25%;
   margin-left: 0;
 }
 
