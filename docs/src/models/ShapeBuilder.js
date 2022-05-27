@@ -8,12 +8,15 @@ let figures = [
 
 let bgColor = "#0d0d0d";
 let colors = [
-    "#2F2519",
-    "#D72323",
-    "#FA7D09",
-    "#FF4301",
-    "#2F8886"
-]
+    "#de5239",
+    "#8bc5cd",
+    "#62d5b4",
+    "#f6bd20",
+    "#3183c5",
+    "#39627b",
+    "#83e631",
+    "#e65a20"
+];
 
 function getRandomShape() {
     return new Shape(

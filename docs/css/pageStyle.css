@@ -82,8 +82,8 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   flex-flow: column;
   align-items: center;
 }
-#emailText { opacity: 0 !important; }
-#emailContainer:hover #emailText { opacity: 1 !important; }
+/* #emailText { opacity: 0 !important; }
+#emailContainer:hover #emailText { opacity: 1 !important; } */
 
 @keyframes moveRound {
   0% { opacity:0.5; }
