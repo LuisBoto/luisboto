@@ -34,16 +34,17 @@ class Language {
     }
 
     getText() {
-        return this.text[Language.currentLanguage];
+        return this.text[Language.currentLanguage.value];
     }
 
 }
 
-let spanish = 0;
-let english = 1;
+let spanish = { value: 0, icon: "./res/esflag.png" };
+let english = { value: 1, icon: "./res/ukflag.png" };
 Language.currentLanguage = english;
 
 function alternateLanguage() {
+    document.getElementById("languageButton").src = Language.currentLanguage.icon;
     Language.currentLanguage = 
         (Language.currentLanguage === spanish ? english : spanish);
     

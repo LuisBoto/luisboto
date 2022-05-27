@@ -69,7 +69,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 }
 
 .socialNetworkImg, #languageButton {
-  width: 2em;
+  width: 3em;
   max-height: 4em;
 }
 
@@ -81,6 +81,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   display: flex;
   flex-flow: column;
   align-items: center;
+  margin-top: 16%;
 }
 /* #emailText { opacity: 0 !important; }
 #emailContainer:hover #emailText { opacity: 1 !important; } */
@@ -132,7 +133,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   margin-left: 0;
 }
 
-.bigFirstLine, a {
+.bigFirstLine {
   font-size: 1.5em;
   color: white;
   text-decoration: none;
