@@ -8,11 +8,18 @@ h1, h2, h3, p {
   font-variant: normal;
 }
 
+hr {
+  margin: 2% 0 1% 0;
+}
+
+h2 {
+  margin-bottom: 3%;
+}
+
 h1, h2, h3 {
   font-weight: 700; 
   font-size: 2em;
   text-align: center;
-  margin-top: 2%;
 }
 
 p {
@@ -31,7 +38,7 @@ p {
   100% { opacity:1; }
 }
 
-h2, h3, p, hr, #verticalSeparator, #expContainer {
+h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   animation: fadein 3s;
 }
 
@@ -43,7 +50,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   grid-template-rows: 1fr;
   align-items: center; /* Center vertically */
   justify-items: center; /* Center horizontally */
-  margin-bottom: 2%;
   height: 25em;
   animation: fadein 1s;
 }
@@ -53,6 +59,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   grid-column: 1;
   font-size: 9em;
   user-select: none;
+  margin: auto;
 }
 
 #verticalSeparator {
@@ -109,7 +116,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
   justify-items: center; 
   width: 90%;
   margin: auto;
-  margin-top: 3%;
 }
 
 #expDescription {
@@ -142,5 +148,28 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 .smallBold {
   font-size: 0.8em;
   font-style: italic;
+}
+
+/* Github projects container style */
+
+#githubProjectsContainer {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-template-rows: 1fr;
+  align-items: center; 
+  justify-items: center;
+  width: 90%;
+  column-gap: 2em;
+}
+
+.github-pinner {
+  justify-self: right;
+}
+
+.ghProjectInfo {
+  display: inline-block;
+  text-align: left;
+  justify-self: left;
+  margin-left: 0;
 }
 
