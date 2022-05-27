@@ -7,8 +7,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
     <link rel="stylesheet" href="./css/pageStyle.css">
     <title>Luis Boto</title>
-</head>
-<body>
+
     <canvas id="canvas"></canvas>
     <script src="./src/models/ShapeBuilder.js"></script>
     <script src="./src/models/Shape.js"></script>
@@ -22,11 +21,13 @@
     <script src="./src/layers/Layer.js"></script>
         <script src="./src/layers/MainLayer.js"></script>
     <script src="./Main.js"></script>
-
+</head>
+<body>
     <div id="contentDiv">
         <div id="titleContainer">
             <h1 id="welcomeTitle">Luis Boto</h1>  
             <div id="verticalSeparator">
+                <input type="image" id="languageButton" src="./res/ukflag.svg" onclick="alternateLanguage()">
                 <a href="https://github.com/LuisBoto"><img class="socialNetworkImg" src="./res/github.png" /></a>
                 <a href="https://linkedin.com/in/luisbotof"><img class="socialNetworkImg" src="./res/linkedin.png" /></a>
                 <div id="emailContainer">
@@ -37,7 +38,7 @@
             <img id="portraitPicture" src="./res/portrait.png" alt="Owner's portrait picture" />     
         </div>
         <hr>
-        <h2>Ingeniero de Software</h2>
+        <h2 id="titleDescriptor">Ingeniero de Software</h2>
         <div id="expContainer">
             <p id="expDescription">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
                totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
@@ -50,29 +51,32 @@
 
             <img class="expLogo" src="./res/urjc.png" alt="URJC logo" />
             <p class="expInfo"> 
-                <a class="bigFirstLine" href="https://www.codeurjc.es/mastercloudapps/">
+                <a class="bigFirstLine" id="mastersName" href="https://www.codeurjc.es/mastercloudapps/">
                     Cloud Apps: Desarrollo y despliegue de aplicaciones en la nube
                 </a><br>
-                Universidad Rey Juan Carlos, Máster<br>
+                <span id="mastersLocation">Universidad Rey Juan Carlos, Máster</span><br>
                 <b class="smallBold">Sept. 2021 - Oct. 2022</b>
             </p>
 
             <img class="expLogo" src="./res/capgemini.png" alt="Capgemini logo" />
             <p class="expInfo"> 
-                <a class="bigFirstLine">Desarrollador Junior</a><br>
-                Capgemini Asturias, Prácticas de empresa<br>
+                <a class="bigFirstLine" id="practicesPosition">Desarrollador Junior</a><br>
+                <span id="practicesLocation">Capgemini Asturias, Prácticas de empresa</span><br>
                 <b class="smallBold">Feb. 2021 - Mar. 2021</b>
             </p>
 
             <img class="expLogo" src="./res/uniovi.png" alt="UniOvi logo" />
             <p class="expInfo"> 
-                <a class="bigFirstLine" href="https://www.uniovi.es/-/grado-en-ingenieria-informatica-del-software-2014">
+                <a class="bigFirstLine" id="degreeName" href="https://www.uniovi.es/-/grado-en-ingenieria-informatica-del-software-2014">
                     Ingeniería Informática del Software
                 </a><br>
-                Universidad de Oviedo, Grado<br>
+                <span id="degreeLocation">Universidad de Oviedo, Grado</span><br>
                 <b class="smallBold"> Sept. 2016 - Jun. 2021 </b>
             </p>
         </div>
     </div>
 </body>
+<footer>
+    <script src="./src/Language.js"></script>
+</footer>
 </html>

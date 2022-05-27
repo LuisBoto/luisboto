@@ -63,17 +63,17 @@ h2, h3, p, hr, #verticalSeparator, #expContainer {
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   align-items: center; 
   justify-items: center; 
 }
 
-.socialNetworkImg {
+.socialNetworkImg, #languageButton {
   width: 2em;
-  max-height: 5em;
+  max-height: 4em;
 }
 
-.socialNetworkImg:hover {
+.socialNetworkImg:hover, #languageButton:not(:active) {
   animation: moveRound 0.5s;
 }
 
