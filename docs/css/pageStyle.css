@@ -154,12 +154,13 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 
 #githubProjectsContainer {
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 2fr 4fr;
   grid-template-rows: 1fr;
   align-items: center; 
   justify-items: center;
   width: 90%;
   column-gap: 2em;
+  row-gap: 2em;
 }
 
 .github-pinner {
@@ -168,6 +169,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 
 .ghProjectInfo {
   display: inline-block;
+  font-size: 1.3em;
   text-align: left;
   justify-self: left;
   margin-left: 0;
