@@ -170,7 +170,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   border: 4px ridge white !important;
 }
 .github-pinner.gp-repo {
-  width: 320px;
+  width: 70%;
 }
 
 .ghProjectInfo {
