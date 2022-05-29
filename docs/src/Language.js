@@ -62,6 +62,13 @@ class Language {
         `A polar clock made in plain JavaScript. This kind of clock uses polar coordinates to represent time
         on colorful concentric circles. One of my favorite projects (and maybe the prettiest one to look at!).`
     ]);
+    static EVOLUTIONARY_STUDY_TOOL_PROJECT = new Language([
+        `Mi proyecto de fin de grado, una herramienta escrita en Java para ayudar en el estudio de datos generados mediante la ejecución de
+        algoritmos evolutivos. Fue diseñada para uso en grupos de investigación, e incluye un algoritmo genético del TSP para la generación de
+        datos de muestra.`,
+        `My bachelor's dissertation project, a Java tool designed to help in the study of evolutionary algorithm execution data. It was created to assist
+        research groups, and the project includes a genetic algorithm which solves the Travelling Salesman Problem, to generate sample data.`
+    ]);
 
     constructor(text) {
         this.text = text;
@@ -93,6 +100,7 @@ function alternateLanguage() {
     setInnerHMTL("myProjects", Language.MY_PROJECTS);
     setInnerHMTL("slideKeyboardProject", Language.SLIDE_KEYBOARD_PROJECT);
     setInnerHMTL("polarClockProject", Language.POLAR_CLOCK_PROJECT);
+    setInnerHMTL("evolutionaryStudyToolProject", Language.EVOLUTIONARY_STUDY_TOOL_PROJECT);
 }
 
 function setInnerHMTL(id, language) {
