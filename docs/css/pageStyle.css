@@ -156,7 +156,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 #githubProjectsContainer {
   display: grid;
   margin: auto;
-  grid-template-columns: 2.3fr 6fr;
+  grid-template-columns: 2fr 5fr;
   grid-template-rows: 1fr;
   align-items: center; 
   justify-items: center;
@@ -171,7 +171,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 }
 .github-pinner.gp-repo {
   width: 320px;
-  margin-left: 8%;
 }
 
 .ghProjectInfo {
