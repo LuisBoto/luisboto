@@ -169,11 +169,14 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   justify-self: right;
   border: 4px ridge white !important;
 }
+.github-pinner.gp-repo {
+  width: 320px;
+}
 
 .ghProjectInfo {
   display: inline-block;
   font-size: 1.3em;
-  text-align: left;
+  text-align: justify;
   justify-self: left;
   margin-left: 0;
   margin-right: 8%;
