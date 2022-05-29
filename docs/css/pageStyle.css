@@ -160,7 +160,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   grid-template-rows: 1fr;
   align-items: center; 
   justify-items: center;
-  width: 90%;
+  width: 80%;
   column-gap: 2em;
   row-gap: 2em;
 }
@@ -179,7 +179,6 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   text-align: justify;
   justify-self: left;
   margin-left: 0;
-  margin-right: 8%;
   border-top: 1px solid grey;
 }
 
