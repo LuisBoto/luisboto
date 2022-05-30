@@ -36,7 +36,7 @@ p {
   100% { opacity:1; }
 }
 
-h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
+h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #resumeContainer {
   animation: fadein 3s;
 }
 
@@ -79,7 +79,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   max-height: 4em;
 }
 
-.socialNetworkImg:hover, #languageButton:not(:active) {
+.socialNetworkImg:hover, #languageButton:not(:active), #resumePicture:not(:active) {
   animation: moveRound 0.5s;
 }
 
@@ -156,6 +156,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 #githubProjectsContainer {
   display: grid;
   margin: auto;
+  margin-bottom: 3%;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 1fr;
   align-items: center; 
@@ -185,5 +186,20 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
 .ghProjectInfoTitle {
   border-bottom: 1px solid grey;
   font-size: 1.3em;
+}
+
+/* Resume container */
+
+#resumePicture {
+  display: block;
+  border-radius: 50%;
+  max-height: 20em;
+  margin: auto;
+  margin-top: 1%;
+}
+
+#resumeDownload {
+  font-size: 1.7em;
+  margin: 1% 1%;
 }
 

@@ -76,6 +76,14 @@ class Language {
         `A simple 2d particle system made in plain JavaScript. Based on a Nature article, it shows the emergence of complex behaviors in particles governed by
         a short equation. Parameters can be configured on the fly to see behavior and pattern changes.`
     ]);
+    static AND_MANY_MORE = new Language([
+        `Y muchos más...`,
+        `And many more...`
+    ]);
+    static DOWNLOAD_MY_RESUME = new Language([
+        `Descargar mi curriculum`,
+        `Download my resume`
+    ]);
 
     constructor(text) {
         this.text = text;
@@ -109,6 +117,8 @@ function alternateLanguage() {
     setInnerHMTL("polarClockProject", Language.POLAR_CLOCK_PROJECT);
     setInnerHMTL("evolutionaryStudyToolProject", Language.EVOLUTIONARY_STUDY_TOOL_PROJECT);
     setInnerHMTL("particleSystemProject", Language.PARTICLE_SYSTEM_PROJECT);
+    setInnerHMTL("manyMore", Language.AND_MANY_MORE);
+    setInnerHMTL("resumeDownload", Language.DOWNLOAD_MY_RESUME);
 }
 
 function setInnerHMTL(id, language) {
