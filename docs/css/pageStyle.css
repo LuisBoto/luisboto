@@ -178,7 +178,12 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer {
   font-size: 1.3em;
   text-align: justify;
   justify-self: left;
+  align-self: start;
   margin-left: 0;
-  border-top: 1px solid grey;
+}
+
+.ghProjectInfoTitle {
+  border-bottom: 1px solid grey;
+  font-size: 1.3em;
 }
 

@@ -59,7 +59,7 @@ class Language {
     static POLAR_CLOCK_PROJECT = new Language([
         `Un reloj polar elaborado en JavaScript. Este tipo de reloj utiliza coordenadas polares para representar el tiempo
         mediante círculos concéntricos de diferentes colores. Uno de mis proyectos favoritos (¡y quizá el más bonito de mirar!).`,
-        `A polar clock made in plain JavaScript. This kind of clock uses polar coordinates to represent time
+        `A polar clock made in JavaScript. This kind of clock uses polar coordinates to represent time
         on colorful concentric circles. One of my favorite projects (and maybe the prettiest one to look at!).`
     ]);
     static EVOLUTIONARY_STUDY_TOOL_PROJECT = new Language([
@@ -68,6 +68,13 @@ class Language {
         datos de muestra.`,
         `My bachelor's dissertation project, a Java tool designed to help in the study of evolutionary algorithm execution data. It was created to assist
         research groups, and the project includes a genetic algorithm which solves the Travelling Salesman Problem, to generate sample data.`
+    ]);
+    static PARTICLE_SYSTEM_PROJECT = new Language([
+        `Implementación en JavaScript puro de un sistema simple de partículas 2d. Basado en un artículo de la revista Nature, demuestra el principio
+        de emergencia de comportamientos complejos en partículas gobernadas por una ecuación sencilla. Puede parametrizarse sobre la marcha, y verse como cambian
+        los patrones y comportamientos.`,
+        `A simple 2d particle system made in plain JavaScript. Based on a Nature article, it shows the emergence of complex behaviors in particles governed by
+        a short equation. Parameters can be configured on the fly to see behavior and pattern changes.`
     ]);
 
     constructor(text) {
@@ -101,6 +108,7 @@ function alternateLanguage() {
     setInnerHMTL("slideKeyboardProject", Language.SLIDE_KEYBOARD_PROJECT);
     setInnerHMTL("polarClockProject", Language.POLAR_CLOCK_PROJECT);
     setInnerHMTL("evolutionaryStudyToolProject", Language.EVOLUTIONARY_STUDY_TOOL_PROJECT);
+    setInnerHMTL("particleSystemProject", Language.PARTICLE_SYSTEM_PROJECT);
 }
 
 function setInnerHMTL(id, language) {
