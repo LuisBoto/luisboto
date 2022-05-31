@@ -156,11 +156,10 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
 #githubProjectsContainer {
   display: grid;
   margin: auto;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 1fr;
   align-items: center; 
-  justify-items: center;
   width: 80%;
   column-gap: 2em;
   row-gap: 2em;
@@ -168,6 +167,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
 
 .github-pinner {
   justify-self: right;
+  align-self: start;
   border: 4px ridge white !important;
 }
 .github-pinner.gp-repo {
@@ -180,12 +180,13 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   text-align: justify;
   justify-self: left;
   align-self: start;
-  margin-left: 0;
+  margin: 0;
 }
 
 .ghProjectInfoTitle {
+  grid-column: 1 / 3;
   border-bottom: 1px solid grey;
-  font-size: 1.1em;
+  font-size: 1.5em;
 }
 
 /* Resume container */
@@ -195,11 +196,11 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   border-radius: 50%;
   max-height: 20em;
   margin: auto;
-  margin-top: 1%;
+  margin-top: -2%;
 }
 
 #resumeDownload {
-  font-size: 1.7em;
+  font-size: 1.5em;
   margin: 1% 1%;
 }
 
