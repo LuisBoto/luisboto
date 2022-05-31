@@ -162,7 +162,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   align-items: center; 
   width: 80%;
   column-gap: 2em;
-  row-gap: 2em;
+  row-gap: 1em;
 }
 
 .github-pinner {
