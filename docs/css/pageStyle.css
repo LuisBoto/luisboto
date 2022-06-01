@@ -204,3 +204,8 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   margin: 1% 1%;
 }
 
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  color: white;
+}
