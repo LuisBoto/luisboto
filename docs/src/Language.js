@@ -125,4 +125,10 @@ function setInnerHMTL(id, language) {
     document.getElementById(id).innerHTML = language.getText();
 }
 
+function setResumeLink() {
+    let resumeLink = "https://www.dropbox.com/s/s4vzcnhg69v63zr/Luis%20Boto%20Fernandez%20CV1.pdf?dl=1";
+    document.getElementById("resumePictureLink").href = resumeLink;
+}
+
 alternateLanguage();
+setResumeLink();
