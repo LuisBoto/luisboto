@@ -10,7 +10,7 @@ class Language {
     ]);
     static MASTERS_LOCATION = new Language([
         "Universidad Rey Juan Carlos, Máster",
-        "King Juan Carlos University, Master's Degree"
+        "Rey Juan Carlos University, Master's Degree"
     ]);
     static PRACTICES_POSITION = new Language([
         "Desarrollador Júnior", 
