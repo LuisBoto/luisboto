@@ -9,4 +9,4 @@ You're welcome to check out some of my personal projects!
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=luisboto&theme=github) 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=luisboto&theme=github) ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=luisboto&theme=github)
 <!-- ![](./profile-3d-contrib/profile-south-season-animate.svg) -->
-
+![](https://komarev.com/ghpvc/?username=luisboto&style=for-the-badge&label=visits+👀+%20&color=red)
