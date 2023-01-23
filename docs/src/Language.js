@@ -118,7 +118,7 @@ class Language {
 
 let spanish = { value: 0, icon: "./res/esflag.png" };
 let english = { value: 1, icon: "./res/ukflag.png" };
-Language.currentLanguage = english;
+Language.currentLanguage = spanish;
 
 function alternateLanguage() {
     document.getElementById("languageButton").src = Language.currentLanguage.icon;
