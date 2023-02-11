@@ -11,12 +11,13 @@ let layer;
 
 function start() {
     layer = new MainLayer();
-    setInterval(loop, 1000 / 20);
+    loop();
 }
 
 function loop(){
     layer.update();
     layer.draw();
+    requestAnimationFrame(loop);
 }
 
 // Resize
