@@ -80,12 +80,12 @@ class Language {
             `My bachelor's dissertation project, a Java tool designed to help in the study of evolutionary algorithm execution data. It was created to assist
             research groups, and the project includes a genetic algorithm which solves the Travelling Salesman Problem, to generate sample data.`
         ]),
-        PARTICLE_SYSTEM_PROJECT : new Language("particleSystemProject", [
-            `Implementación en JavaScript puro de un sistema simple de partículas 2d. Basado en un artículo de la revista Nature, demuestra el principio
-            de emergencia de comportamientos complejos en partículas gobernadas por una ecuación sencilla. Puede parametrizarse sobre la marcha, y verse como cambian
-            los patrones y comportamientos.`,
-            `A simple 2d particle system made in plain JavaScript. Based on a Nature article, it shows the emergence of complex behaviors in particles governed by
-            a short equation. Parameters can be configured on the fly to see behavior and pattern changes.`
+        NEURAL_AUTOMATA_PROJECT : new Language("neuralAutomataProject", [
+            `Implementación en JavaScript puro de autómatas neuronales celulares muy sencillos. Mediante convoluciones simples aceleradas por GPU puede verse 
+            como se generan comportamientos complejos y visualmente interesantes, pudiendo parametrizarse tanto el kernel como la función de activación
+            desde la interfaz web.`,
+            `Pure JavaScript implementation of very rudimentary neural celullar automata. By means of simple GPU-accelerated convolutions complex and visually 
+            appealing behaviours can be achieved, being both the kernel values and the activation function configurable on the web interface.`
         ]),
         AND_MANY_MORE : new Language("manyMore", [
             `Y muchos más...`,
