@@ -41,18 +41,18 @@ class Language {
             `Soy Luis, desarrollador de software con base en Madrid. 
             Me gradué de Ingeniería de Software en la universidad de Oviedo en 2021, 
             y me he especializado en el desarrollo de aplicaciones distribuidas en la nube, usando 
-            principalmente herramientas como Spring Framework o NodeJS. 
+            principalmente herramientas como Spring Framework, Micronaut o NodeJS. 
             Considero por ello que mis lenguajes de programación más fuertes son Java y JavaScript, 
-            aunque también me puedo desenvolver puntualmente en Python y C. Te invito a ver a continuación 
+            aunque también me puedo desenvolver en Kotlin, y puntualmente en C o Python. Te invito a ver a continuación 
             algunos de los proyectos que he realizado (unos en mi tiempo libre, y otros con fines académicos), 
             así como a visitar mi perfil de GitHub, donde los publico y en donde suelo mantener una actividad frecuente. 
             ¡Gracias por visitarme!`,
             `I'm Luis, a software developer based in Madrid. 
             I graduated in Software Engineering at Oviedo's University in 2021, 
             and I've specialized in development of cloud based distributed applications, 
-            mainly using tools such as Spring Framework and NodeJS. 
+            mainly using tools such as Spring Framework, Micronaut and NodeJS. 
             As so, I consider myself to be most proficent in Java and JavaScript, 
-            although sometimes I can find my way around in Python and C, too. You're welcome to check out 
+            although I can find my way around in Kotlin, and sometimes on C and Python, too. You're welcome to check out 
             some of the projects I've developed (some in my free time, others with academic purposes), 
             and to visit my GitHub profile, where they are published and where I usually keep pretty frequent activity. 
             Thank you for visiting my website!`
