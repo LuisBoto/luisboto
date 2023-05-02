@@ -120,7 +120,7 @@ class Language {
 }
 
 let spanish = { value: 0, icon: esflag };
-let english = { value: 1, icon: ukflag.png };
+let english = { value: 1, icon: ukflag };
 Language.currentLanguage = spanish;
 
 function alternateLanguage() {
@@ -134,6 +134,8 @@ function setResumeLink() {
     let resumeLink = "https://www.dropbox.com/s/s4vzcnhg69v63zr/Luis%20Boto%20Fernandez%20CV1.pdf?dl=1";
     document.getElementById("resumePictureLink").href = resumeLink;
 }
+
+document.getElementById("languageButton").onclick = alternateLanguage;
 
 export {
     alternateLanguage,
