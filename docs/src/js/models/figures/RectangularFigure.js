@@ -1,3 +1,6 @@
+import { DrawStrategy } from "./DrawStrategy.js";
+import { context } from "../../../Main.js";
+
 class RectangularFigure extends DrawStrategy {
 
     constructor(size) {
@@ -12,4 +15,8 @@ class RectangularFigure extends DrawStrategy {
         context.fill();
         context.closePath();
     }
+}
+
+export {
+    RectangularFigure
 }

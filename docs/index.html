@@ -18,14 +18,14 @@
             <h1 id="welcomeTitle">Luis Boto</h1>  
             <div id="verticalSeparator">
                 <input type="image" id="languageButton" onclick="alternateLanguage()">
-                <a href="https://github.com/LuisBoto"><img class="socialNetworkImg" alt="GitHub logo" src="./res/github.png" /></a>
-                <a href="https://linkedin.com/in/luisbotof"><img class="socialNetworkImg" alt="LikedIn logo" src="./res/linkedin.png" /></a>
+                <a href="https://github.com/LuisBoto"><img class="socialNetworkImg" alt="GitHub logo" src="./src/res/github.png" /></a>
+                <a href="https://linkedin.com/in/luisbotof"><img class="socialNetworkImg" alt="LikedIn logo" src="./src/res/linkedin.png" /></a>
                 <div id="emailContainer">
-                    <a href="mailto:luisboto@hotmail.es"><img class="socialNetworkImg" alt="Email Logo" src="./res/email.png" /></a>
+                    <a href="mailto:luisboto@hotmail.es"><img class="socialNetworkImg" alt="Email Logo" src="./src/res/email.png" /></a>
                     <p id="emailText">luisboto@hotmail.es</p>
                 </div>
             </div>
-            <img id="portraitPicture" src="./res/portrait.svg" alt="Owner's portrait picture" />     
+            <img id="portraitPicture" src="./src/res/portrait.svg" alt="Owner's portrait picture" />     
         </div>
         <hr>
         <h2 id="titleDescriptor">Ingeniero de Software</h2>
@@ -39,14 +39,14 @@
                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid 
                ex ea commodi consequatur?</p>
 
-            <img class="expLogo" src="./res/autentia.png" alt="Autentia logo" />
+            <img class="expLogo" src="./src/res/autentia.png" alt="Autentia logo" />
             <p class="expInfo"> 
                 <a class="bigFirstLine" id="autentiaLocation">Autentia Real Business Solutions</a><br>
                 <span id="autentiaPosition">Desarrollador Júnior</span><br>
                 <b class="smallBold">09/2022</b>
             </p>
 
-            <img class="expLogo" src="./res/urjc.png" alt="URJC logo" />
+            <img class="expLogo" src="./src/res/urjc.png" alt="URJC logo" />
             <p class="expInfo"> 
                 <a class="bigFirstLine" id="mastersName" href="https://www.codeurjc.es/mastercloudapps/">
                     Cloud Apps: Desarrollo y despliegue de aplicaciones en la nube
@@ -55,14 +55,14 @@
                 <b class="smallBold">09/2021 - 12/2022</b>
             </p>
 
-            <img class="expLogo" src="./res/capgemini.png" alt="Capgemini logo" />
+            <img class="expLogo" src="./src/res/capgemini.png" alt="Capgemini logo" />
             <p class="expInfo"> 
                 <a class="bigFirstLine" id="practicesLocation">Capgemini Asturias</a><br>
                 <span id="practicesPosition">Desarrollador Júnior, Prácticas de empresa</span><br>
                 <b class="smallBold">02/2021 - 03/2021</b>
             </p>
 
-            <img class="expLogo" src="./res/uniovi.png" alt="UniOvi logo" />
+            <img class="expLogo" src="./src/res/uniovi.png" alt="UniOvi logo" />
             <p class="expInfo"> 
                 <a class="bigFirstLine" id="degreeName" href="https://www.uniovi.es/-/grado-en-ingenieria-informatica-del-software-2014">
                     Ingeniería Informática del Software
@@ -96,25 +96,13 @@
         </div>
         <a href="https://www.github.com/luisboto?tab=repositories"><h2 id="manyMore">Y muchos más...</h2></a>
         <div id="resumeContainer">
-            <a href="https://www.luisboto.com" id="resumePictureLink"><img id="resumePicture" src="./res/resume.png" alt="Resume download button" /></a> 
+            <a href="https://www.luisboto.com" id="resumePictureLink"><img id="resumePicture" src="./src/res/resume.png" alt="Resume download button" /></a> 
             <h3 id="resumeDownload">Descargar mi Curriculum</h3>
         </div>
     </div>
     <br>
 </body>
 <footer>
-    <script defer src="./src/models/ShapeBuilder.js"></script>
-    <script defer src="./src/models/Shape.js"></script>
-    <script defer src="./src/models/Movement.js"></script>
-    <script defer src="./src/models/figures/DrawStrategy.js"></script>
-        <script defer src="./src/models/figures/ArrowFigure.js"></script>
-        <script defer src="./src/models/figures/RectangularFigure.js"></script>
-        <script defer src="./src/models/figures/CircleFigure.js"></script>
-        <script defer src="./src/models/figures/SquareFigure.js"></script>
-        <script defer src="./src/models/figures/StarFigure.js"></script>
-    <script defer src="./src/layers/Layer.js"></script>
-        <script defer src="./src/layers/MainLayer.js"></script>
-    <script defer src="./Main.js"></script>
-    <script src="./src/Language.js"></script>
+    <script src="dist/bundle.js"></script>
 </footer>
 </html>

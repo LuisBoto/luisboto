@@ -1,4 +1,6 @@
-// Canvas & context
+import { MainLayer } from "./js/layers/MainLayer.js";
+import { alternateLanguage, setResumeLink } from "./js/Language.js";
+
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
 canvas.width = window.innerWidth;
@@ -23,11 +25,18 @@ function loop(){
 // Resize
 window.addEventListener('resize', resize, false);
 function resize() {
-    console.log("Resize")
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
     canvasWidth = window.innerWidth;
     canvasHeight = window.innerHeight;
 }
 
+alternateLanguage();
+setResumeLink();
 start();
+
+export {
+    canvasWidth,
+    canvasHeight,
+    context
+}

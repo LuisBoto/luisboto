@@ -1,3 +1,6 @@
+import { DrawStrategy } from "./DrawStrategy.js";
+import { context } from "../../../Main.js";
+
 class ArrowFigure extends DrawStrategy {
 
     constructor(size) {
@@ -14,4 +17,8 @@ class ArrowFigure extends DrawStrategy {
         context.fill();
         context.closePath();
     }
+}
+
+export {
+    ArrowFigure
 }

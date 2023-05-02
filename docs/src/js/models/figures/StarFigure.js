@@ -1,3 +1,6 @@
+import { DrawStrategy } from "./DrawStrategy.js";
+import { context } from "../../../Main.js";
+
 class StarFigure extends DrawStrategy {
 
     constructor(size) {
@@ -17,4 +20,8 @@ class StarFigure extends DrawStrategy {
         context.fill();
         context.closePath();
     }
+}
+
+export {
+    StarFigure
 }

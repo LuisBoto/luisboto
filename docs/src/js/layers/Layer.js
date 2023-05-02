@@ -13,3 +13,7 @@ class Layer {
     }
 
 }
+
+export {
+    Layer
+}

@@ -9,3 +9,7 @@ class DrawStrategy {
     }
 
 }
+
+export {
+    DrawStrategy
+}

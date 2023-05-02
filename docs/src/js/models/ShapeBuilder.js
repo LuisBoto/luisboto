@@ -1,3 +1,12 @@
+import { canvasWidth, canvasHeight } from "../../Main";
+import { Shape } from "./Shape.js";
+import { Movement } from "./Movement.js";
+import { ArrowFigure } from "./figures/ArrowFigure.js";
+import { RectangularFigure } from "./figures/RectangularFigure.js";
+import { CircleFigure } from "./figures/CircleFigure.js";
+import { SquareFigure } from "./figures/SquareFigure.js";
+import { StarFigure } from "./figures/StarFigure.js";
+
 let figures = [
     (size) => new ArrowFigure(size),
     (size) => new RectangularFigure(size),
@@ -40,4 +49,12 @@ function getRandomFigureStrategy() {
 
 function getRandomColor() {
     return colors[Math.floor(Math.random()*colors.length)];
+}
+
+export {
+    bgColor,
+    getRandomShape,
+    getRandomMovement,
+    getRandomFigureStrategy,
+    getRandomColor
 }

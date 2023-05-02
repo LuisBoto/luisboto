@@ -1,3 +1,6 @@
+import { DrawStrategy } from "./DrawStrategy.js";
+import { context } from "../../../Main.js";
+
 class SquareFigure extends DrawStrategy {
 
     constructor(size) {
@@ -17,4 +20,8 @@ class SquareFigure extends DrawStrategy {
         context.stroke();
         context.closePath();
     }
+}
+
+export {
+    SquareFigure
 }

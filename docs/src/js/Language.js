@@ -1,3 +1,6 @@
+import esflag from "../res/esflag.png";
+import ukflag from "../res/ukflag.png";
+
 class Language {
 
     static MSG_STRINGS = {
@@ -116,8 +119,8 @@ class Language {
 
 }
 
-let spanish = { value: 0, icon: "./res/esflag.png" };
-let english = { value: 1, icon: "./res/ukflag.png" };
+let spanish = { value: 0, icon: esflag };
+let english = { value: 1, icon: ukflag.png };
 Language.currentLanguage = spanish;
 
 function alternateLanguage() {
@@ -132,5 +135,7 @@ function setResumeLink() {
     document.getElementById("resumePictureLink").href = resumeLink;
 }
 
-alternateLanguage();
-setResumeLink();
+export {
+    alternateLanguage,
+    setResumeLink
+}

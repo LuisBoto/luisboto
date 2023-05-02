@@ -1,3 +1,8 @@
+import { Layer } from "./Layer.js";
+import { canvasWidth, canvasHeight, context } from "../../Main.js";
+import { getRandomShape } from "../models/ShapeBuilder.js";
+import { bgColor } from "../models/ShapeBuilder.js";
+
 class MainLayer extends Layer {
 
     constructor() {
@@ -26,4 +31,8 @@ class MainLayer extends Layer {
         context.fillRect(0, 0, canvasWidth, canvasHeight);
     }
 
+}
+
+export {
+    MainLayer
 }

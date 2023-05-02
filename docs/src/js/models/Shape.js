@@ -1,3 +1,6 @@
+import { context } from "../../Main.js";
+import { getRandomColor, getRandomFigureStrategy, getRandomMovement } from "./ShapeBuilder.js";
+
 class Shape {
 
     constructor(movement, drawStrategy) {
@@ -33,4 +36,8 @@ class Shape {
         this.movement = getRandomMovement();
         this.color = getRandomColor();
     }
+}
+
+export {
+    Shape
 }

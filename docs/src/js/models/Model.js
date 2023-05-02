@@ -1,3 +1,5 @@
+import { context } from "../../Main.js";
+
 class Model {
 
     constructor(imageRoute, x, y) {
@@ -14,4 +16,8 @@ class Model {
             this.y - this.height /2);
     }
 
+}
+
+export {
+    Model
 }
