@@ -42,11 +42,17 @@ jobs:
           cd docs
           npm install
           npx webpack
+          mkdir publicArtifact
+          cp -r dist publicArtifact/dist
+          cp -r css publicArtifact/css
+          cp favicon.ico publicArtifact/favicon.ico
+          cp CNAME publicArtifact/CNAME
+          cp index.html publicArtifact/index.html
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: './docs'
+          path: './publicArtifact'
           
       - name: Deploy to GitHub Pages
         id: deployment
