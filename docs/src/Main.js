@@ -1,3 +1,6 @@
+import "./css/pageStyle.css";
+import "./css/canvasBackground.css";
+
 import { MainLayer } from "./js/layers/MainLayer.js";
 import { alternateLanguage, setResumeLink } from "./js/Language.js";
 
@@ -13,7 +16,8 @@ let layer;
 
 function start() {
     layer = new MainLayer();
-    loop();
+    if (navigator.hardwareConcurrency > 2)
+        loop();
 }
 
 function loop(){
