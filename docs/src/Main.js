@@ -16,7 +16,7 @@ let layer;
 
 function start() {
     layer = new MainLayer();
-    if (navigator.hardwareConcurrency > 2)
+    if (navigator.hardwareConcurrency > 1)
         loop();
 }
 
