@@ -41,9 +41,7 @@ jobs:
         run: |
           cd docs
           npm install
-          npx webpack
-          rm -r node_modules
-          rm *.json *.config.js
+          npm run build
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
