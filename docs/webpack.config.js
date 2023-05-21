@@ -8,8 +8,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       favicon: "./favicon.ico",
-      scriptLoading: "blocking",
-      inject: "head"
+      inject: "body",
+      scriptLoading: "module"
     }),
   ],
   mode: 'production',
