@@ -9,7 +9,7 @@ module.exports = {
       template: "./index.html",
       favicon: "./favicon.ico",
       inject: "head",
-      scriptLoading: "defer"
+      scriptLoading: "blocking"
     }),
   ],
   mode: 'production',

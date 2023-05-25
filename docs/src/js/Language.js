@@ -124,6 +124,7 @@ let english = { value: 1, icon: ukflag };
 Language.currentLanguage = spanish;
 
 function alternateLanguage() {
+    document.getElementById("languageButton").onclick = alternateLanguage;
     document.getElementById("languageButton").src = Language.currentLanguage.icon;
     Language.currentLanguage = (Language.currentLanguage === spanish ? english : spanish);
     for (let msg in Language.MSG_STRINGS)
@@ -134,8 +135,6 @@ function setResumeLink() {
     let resumeLink = "https://www.dropbox.com/s/s4vzcnhg69v63zr/Luis%20Boto%20Fernandez%20CV1.pdf?dl=1";
     document.getElementById("resumePictureLink").href = resumeLink;
 }
-
-document.getElementById("languageButton").onclick = alternateLanguage;
 
 export {
     alternateLanguage,

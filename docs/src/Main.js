@@ -4,11 +4,8 @@ import "./css/canvasBackground.css";
 import { MainLayer } from "./js/layers/MainLayer.js";
 import { alternateLanguage, setResumeLink } from "./js/Language.js";
 
-let canvas = document.getElementById("canvas");
-let context = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
+let canvas;
+let context;
 let canvasWidth = window.innerWidth;
 let canvasHeight = window.innerHeight;
 
@@ -26,8 +23,13 @@ function loop(){
     requestAnimationFrame(loop);
 }
 
-// Resize
-window.addEventListener('resize', resize, false);
+function setUpCanvas() {
+    canvas = document.getElementById("canvas");
+    context = canvas.getContext("2d");
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+
 function resize() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
@@ -35,9 +37,13 @@ function resize() {
     canvasHeight = window.innerHeight;
 }
 
-alternateLanguage();
-setResumeLink();
-start();
+window.addEventListener('load', () => {
+    setUpCanvas();
+    alternateLanguage();
+    setResumeLink();
+    start();
+    window.addEventListener('resize', resize, false);
+}, false);
 
 export {
     canvasWidth,
