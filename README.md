@@ -1,7 +1,7 @@
 <div align="center" markdown="1">
 
 # Welcome!🦦
-I'm Luis, a software developer mainly fluent in Java & Javascript.
+I'm Luis, a software developer mainly fluent in Java, Kotlin & Javascript.
 
 You're welcome to check out some of my personal projects!
 
