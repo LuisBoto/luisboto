@@ -8,13 +8,20 @@ class Language {
             "Ingeniero de Software", 
             "Software Engineer"
         ]), 
+
+        GFT_LOCATION : new Language("gftLocation", [
+            "GFT Technologies"
+        ]),
+        GFT_POSITION : new Language("gftPosition", [
+            "Desarrollador Backend",
+            "Backend Developer"
+        ]),
         AUTENTIA_LOCATION : new Language("autentiaLocation", [
-            "Autentia Real Business Solutions",
             "Autentia Real Business Solutions"
         ]),
         AUTENTIA_POSITION : new Language("autentiaPosition", [
-            "Desarrollador Júnior",
-            "Junior Developer"
+            "Desarrollador Backend Júnior",
+            "Junior Backend Developer"
         ]),
         MASTERS_NAME : new Language("mastersName", [
             "Cloud Apps: Desarrollo y despliegue de aplicaciones en la nube", 
@@ -29,7 +36,6 @@ class Language {
             "Junior Developer, Internship"
         ]),
         PRACTICES_LOCATION : new Language("practicesLocation", [
-            "Capgemini Asturias", 
             "Capgemini Asturias"
         ]),
         DEGREE_NAME : new Language("degreeName", [
@@ -106,7 +112,7 @@ class Language {
     }
 
     getText() {
-        return this.text[Language.currentLanguage.value];
+        return this.text.length == 1 ? this.text[0] : this.text[Language.currentLanguage.value];
     }
 
     getElementID() {
