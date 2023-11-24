@@ -24,7 +24,10 @@ let colors = [
     "#3183c5",
     "#39627b",
     "#83e631",
-    "#e65a20"
+    "#e65a20",
+    "#F5A9B8",
+    "#C479A2",
+    "#6D82D1"
 ];
 
 function getRandomShape() {
