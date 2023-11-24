@@ -16,12 +16,19 @@ class Language {
             "Desarrollador Backend",
             "Backend Developer"
         ]),
+        GFT_DATES : new Language("gftDates", [
+            "11/2023"
+        ]),
         AUTENTIA_LOCATION : new Language("autentiaLocation", [
             "Autentia Real Business Solutions"
         ]),
         AUTENTIA_POSITION : new Language("autentiaPosition", [
             "Desarrollador Backend Júnior",
             "Junior Backend Developer"
+        ]),
+        AUTENTIA_DATES : new Language("autentiaDates", [
+            "09/2022 - 11/2023 · 1 año 3 meses",
+            "09/2022 - 11/2023 · 1 year 3 months"
         ]),
         MASTERS_NAME : new Language("mastersName", [
             "Cloud Apps: Desarrollo y despliegue de aplicaciones en la nube", 
@@ -31,12 +38,16 @@ class Language {
             "Universidad Rey Juan Carlos, Máster",
             "Rey Juan Carlos University, Master's Degree"
         ]),
-        PRACTICES_POSITION : new Language("practicesPosition", [
+        INTERNSHIP_POSITION : new Language("internshipPosition", [
             "Desarrollador Júnior, Prácticas de empresa", 
             "Junior Developer, Internship"
         ]),
-        PRACTICES_LOCATION : new Language("practicesLocation", [
+        INTERNSHIP_LOCATION : new Language("internshipLocation", [
             "Capgemini Asturias"
+        ]),
+        INTERNSHIP_DATES : new Language("internshipDates", [
+            "02/2021 - 03/2021 · 2 meses",
+            "02/2021 - 03/2021 · 2 months",
         ]),
         DEGREE_NAME : new Language("degreeName", [
             "Ingeniería Informática del Software", 
