@@ -60,21 +60,30 @@ class Language {
         EXP_DESCRIPTION : new Language("expDescription", [
             `Soy Luis, desarrollador de software con base en Madrid. 
             Me gradué de Ingeniería de Software en la universidad de Oviedo en 2021, 
-            y me he especializado en el desarrollo de aplicaciones distribuidas en la nube, usando 
-            principalmente herramientas como Spring Framework, Micronaut o NodeJS. 
-            Considero por ello que mis lenguajes de programación más fuertes son Java y JavaScript, 
-            aunque también me puedo desenvolver en Kotlin, y puntualmente en C o Python. Te invito a ver a continuación 
-            algunos de los proyectos que he realizado (unos en mi tiempo libre, y otros con fines académicos), 
-            así como a visitar mi perfil de GitHub, donde los publico y en donde suelo mantener una actividad frecuente. 
+            y me he especializado en el desarrollo backend de aplicaciones distribuidas en la nube, usando 
+            principalmente herramientas como Spring Framework, Micronaut o NodeJS. Considero que mis 
+            lenguajes de programación más fuertes son Java y JavaScript, además de saberme desenvolver en Kotlin y Typescript.
+            <br><br>
+            Considero la construcción de software una artesanía, y con ello de vital importancia la calidad, simplicidad y estructuración del
+            código sobre unas bases sólidas, por lo que no me aferro definitivamente a ninguna tecnología particular.
+            <br><br>
+            Te invito a ver a continuación algunos de los proyectos que he realizado 
+            (unos en mi tiempo libre, otros con fines académicos), así como a visitar mi perfil de GitHub, 
+            donde los publico y en donde suelo mantener una actividad frecuente. 
             ¡Gracias por visitarme!`,
+
             `I'm Luis, a software developer based in Madrid. 
             I graduated in Software Engineering at Oviedo's University in 2021, 
-            and I've specialized in development of cloud based distributed applications, 
-            mainly using tools such as Spring Framework, Micronaut and NodeJS. 
-            As so, I consider myself to be most proficent in Java and JavaScript, 
-            although I can find my way around in Kotlin, and sometimes on C and Python, too. You're welcome to check out 
-            some of the projects I've developed (some in my free time, others with academic purposes), 
-            and to visit my GitHub profile, where they are published and where I usually keep pretty frequent activity. 
+            and I've specialized in backend development of cloud based distributed applications, 
+            mainly using tools such as Spring Framework, Micronaut or NodeJS. I consider myself 
+            to be most proficent in Java and JavaScript, although I can find my way around in Kotlin and Typescript.
+            <br><br>
+            I consider software development to be a form of craftmanship, and as such I think code structure, quality and simplicity
+            to be of uttermost importance, betting for solid bases first, before any particular tech or framework.
+            <br><br>
+            You're welcome to check out some of the projects I've developed 
+            (some on my free time, others with academic purposes), and to visit my GitHub profile, 
+            where they are published and where I usually keep pretty frequent activity. 
             Thank you for visiting my website!`
         ]),
         MY_PROJECTS : new Language("myProjects", [
