@@ -9,6 +9,15 @@ class Language {
             "Software Engineer"
         ]), 
 
+        TECHUTAMOS_LOCATION : new Language("techutamosLocation", [
+            "TechUtamos"
+        ]),
+        TECHUTAMOS_POSITION : new Language("techutamosPosition", [
+            "Lead Developer"
+        ]),
+        TECHUTAMOS_DATES : new Language("techutamosDates", [
+            "12/2023"
+        ]),
         GFT_LOCATION : new Language("gftLocation", [
             "GFT Technologies"
         ]),
