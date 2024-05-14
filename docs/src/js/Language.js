@@ -167,8 +167,8 @@ function alternateLanguage() {
 }
 
 function setResumeLink() {
-    let resumeLink = "https://www.dropbox.com/scl/fi/slgjcyoneg6s65akgvxye/Luis-Boto-Fernandez-CV1.pdf?rlkey=uykn37rtkpg1xo6ixxycdeyip&dl=1";
-    document.getElementById("resumePictureLink").href = resumeLink;
+    //let resumeLink = "https://www.dropbox.com/scl/fi/slgjcyoneg6s65akgvxye/Luis-Boto-Fernandez-CV1.pdf?rlkey=uykn37rtkpg1xo6ixxycdeyip&dl=1";
+    //document.getElementById("resumePictureLink").href = resumeLink;
 }
 
 export {
