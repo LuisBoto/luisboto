@@ -13,10 +13,11 @@ class Language {
             "TechUtamos"
         ]),
         TECHUTAMOS_POSITION : new Language("techutamosPosition", [
-            "Lead Developer"
+            "Lead Developer & Cofundador",
+            "Lead Developer & Cofounder"
         ]),
         TECHUTAMOS_DATES : new Language("techutamosDates", [
-            "12/2023"
+            "01/2024"
         ]),
         GFT_LOCATION : new Language("gftLocation", [
             "GFT Technologies"
