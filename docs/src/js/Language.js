@@ -13,8 +13,8 @@ class Language {
             "TechUtamos"
         ]),
         TECHUTAMOS_POSITION : new Language("techutamosPosition", [
-            "Lead Developer & Cofundador",
-            "Lead Developer & Cofounder"
+            "Lead Developer",
+            "Lead Developer"
         ]),
         TECHUTAMOS_DATES : new Language("techutamosDates", [
             "01/2024"
