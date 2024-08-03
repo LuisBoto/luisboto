@@ -27,7 +27,8 @@ class Language {
             "Backend Developer"
         ]),
         GFT_DATES : new Language("gftDates", [
-            "11/2023"
+            "11/2023 - 06/2024 · 8 meses",
+            "11/2023 - 06/2024 · 8 months"
         ]),
         AUTENTIA_LOCATION : new Language("autentiaLocation", [
             "Autentia Real Business Solutions"
