@@ -17,7 +17,8 @@ class Language {
             "Lead Developer"
         ]),
         BULLFEET_DATES : new Language("bullfeetDates", [
-            "12/2023"
+            "12/2023 - 04/2025 · 1 año 5 meses",
+            "12/2023 - 04/2025 · 1 year 5 months"
         ]),
         GFT_LOCATION : new Language("gftLocation", [
             "GFT Technologies"
