@@ -139,6 +139,17 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   margin-left: 0;
 }
 
+.oldExp {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  line-height: 1em;
+  margin: 0.5rem 0 0.5rem 0;
+}
+
+img.oldExp {
+  height: 3em;
+}
+
 .bigFirstLine {
   font-size: 1.5em;
   color: white;
