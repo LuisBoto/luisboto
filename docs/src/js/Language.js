@@ -9,6 +9,16 @@ class Language {
             "Software Engineer"
         ]), 
 
+        THOUGHTWORKS_LOCATION : new Language("thoughtworksLocation", [
+            "ThoughtWorks"
+        ]),
+        THOUGHTWORKS_POSITION : new Language("thoughtworksPosition", [
+            "Desarrollador",
+            "Developer"
+        ]),
+        THOUGHTWORKS_DATES : new Language("thoughtworksDates", [
+            "04/2025"
+        ]),
         BULLFEET_LOCATION : new Language("bullfeetLocation", [
             "Bullfeet"
         ]),

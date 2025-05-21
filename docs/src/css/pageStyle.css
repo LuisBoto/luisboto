@@ -128,7 +128,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
 
 .expLogo {
   max-width: 6em;
-  height: 4em;
+  height: 5em;
 }
 
 .expInfo {
@@ -142,7 +142,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
 .oldExp {
   font-size: 0.75rem;
   opacity: 0.5;
-  line-height: 1em;
+  line-height: 0.9rem;
   margin: 0.5rem 0 0.5rem 0;
 }
 
