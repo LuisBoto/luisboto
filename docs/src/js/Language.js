@@ -10,7 +10,7 @@ class Language {
         ]), 
 
         THOUGHTWORKS_LOCATION : new Language("thoughtworksLocation", [
-            "ThoughtWorks"
+            "Thoughtworks"
         ]),
         THOUGHTWORKS_POSITION : new Language("thoughtworksPosition", [
             "Desarrollador",
