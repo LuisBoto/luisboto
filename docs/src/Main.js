@@ -24,6 +24,7 @@ function loop(){
 }
 
 function setUpCanvas() {
+    document.querySelector('body').style.visibility = 'visible';
     canvas = document.getElementById("canvas");
     context = canvas.getContext("2d");
     canvas.width = window.innerWidth;
