@@ -13,8 +13,8 @@ class Language {
             "Thoughtworks"
         ]),
         THOUGHTWORKS_POSITION : new Language("thoughtworksPosition", [
-            "Desarrollador",
-            "Developer"
+            "Desarrollador Full Stack",
+            "Full Stack Developer"
         ]),
         THOUGHTWORKS_DATES : new Language("thoughtworksDates", [
             "04/2025"
@@ -95,9 +95,9 @@ class Language {
             ¡Gracias por visitarme!`,
 
             `I'm Luis, a software developer based in Madrid. 
-            I graduated in Software Engineering at Oviedo's University in 2021, 
+            I graduated in Software Engineering from Oviedo's University in 2021, 
             and I've specialized in backend development of cloud based distributed applications, 
-            mainly using tools such as Spring Framework, Micronaut or NodeJS. I consider myself 
+            mainly using tools such as Spring Framework or NodeJS. I consider myself 
             to be most proficent in Java and JavaScript, although I can find my way around in Kotlin and Typescript.
             <br><br>
             I consider software development to be a form of craftmanship, and as such I think code structure, quality and simplicity
@@ -180,7 +180,7 @@ function alternateLanguage() {
 }
 
 function setResumeLink() {
-    //let resumeLink = "https://www.dropbox.com/scl/fi/slgjcyoneg6s65akgvxye/Luis-Boto-Fernandez-CV1.pdf?rlkey=uykn37rtkpg1xo6ixxycdeyip&dl=1";
+    //let resumeLink = "";
     //document.getElementById("resumePictureLink").href = resumeLink;
 }
 
