@@ -41,7 +41,7 @@ function getRandomMovement() {
     return new Movement(
         -canvasWidth*0.5,
         (Math.random()*0.7 + 0.3) * (canvasHeight*2 + (canvasWidth*1.5)/Math.tan(45)),
-        (Math.random()*2) + 1
+        (Math.random()*4) + 2
     );
 }
 

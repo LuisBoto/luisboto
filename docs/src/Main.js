@@ -10,17 +10,23 @@ let canvasWidth = window.innerWidth;
 let canvasHeight = window.innerHeight;
 
 let layer;
+let fpsCap = 1000/60;
+let lastFrame;
 
 function start() {
     layer = new MainLayer();
+    lastFrame = Date.now();
     if (navigator.hardwareConcurrency > 1)
         loop();
 }
 
-function loop(){
-    layer.update();
-    layer.draw();
+function loop() {
     requestAnimationFrame(loop);
+    if ((Date.now() - lastFrame) > fpsCap) {
+        layer.update();
+        layer.draw();
+        lastFrame = Date.now();
+    }
 }
 
 function setUpCanvas() {
