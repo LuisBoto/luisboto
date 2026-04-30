@@ -2,7 +2,7 @@ import "./css/pageStyle.css";
 import "./css/canvasBackground.css";
 
 import { MainLayer } from "./js/layers/MainLayer.js";
-import { alternateLanguage, setResumeLink } from "./js/Language.js";
+import { alternateLanguage } from "./js/Language.js";
 
 let canvas;
 let context;
@@ -41,7 +41,6 @@ function resize() {
 window.addEventListener('load', () => {
     setUpCanvas();
     alternateLanguage();
-    setResumeLink();
     start();
     window.addEventListener('resize', resize, false);
 }, false);

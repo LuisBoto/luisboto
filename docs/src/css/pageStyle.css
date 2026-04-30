@@ -78,7 +78,7 @@ h2, h3, p, hr, #verticalSeparator, #expContainer, #githubProjectsContainer, #res
   max-height: 4em;
 }
 
-.socialNetworkImg:hover, #languageButton:not(:active), #resumePicture:not(:active) {
+.socialNetworkImg:hover, #languageButton:not(:active) {
   animation: moveRound 0.5s;
 }
 
@@ -204,21 +204,6 @@ img.oldExp {
   grid-column: 1 / 3;
   border-bottom: 1px solid grey;
   font-size: 1.5em;
-}
-
-/* Resume container */
-
-#resumePicture {
-  display: block;
-  border-radius: 50%;
-  max-height: 20em;
-  margin: auto;
-  margin-top: -2%;
-}
-
-#resumeDownload {
-  font-size: 1.5em;
-  margin: 1% 1%;
 }
 
 a {

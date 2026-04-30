@@ -81,7 +81,7 @@ class Language {
         ]),
         EXP_DESCRIPTION : new Language("expDescription", [
             `Soy Luis, desarrollador de software con base en Madrid. 
-            Me gradué de Ingeniería de Software en la universidad de Oviedo en 2021, 
+            Me gradué de Ingeniería de Software en la universidad de Oviedo, 
             y me he especializado en el desarrollo backend de aplicaciones distribuidas en la nube, usando 
             principalmente herramientas como Spring Framework, Micronaut o NodeJS. Considero que mis 
             lenguajes de programación más fuertes son Java y JavaScript, además de saberme desenvolver en Kotlin y Typescript.
@@ -95,7 +95,7 @@ class Language {
             ¡Gracias por visitarme!`,
 
             `I'm Luis, a software developer based in Madrid. 
-            I graduated in Software Engineering from Oviedo's University in 2021, 
+            I graduated in Software Engineering from Oviedo's University, 
             and I've specialized in backend development of cloud based distributed applications, 
             mainly using tools such as Spring Framework or NodeJS. I consider myself 
             to be most proficent in Java and JavaScript, although I can find my way around in Kotlin and Typescript.
@@ -138,14 +138,20 @@ class Language {
             `Pure JavaScript implementation of very rudimentary neural celullar automata. By means of simple GPU-accelerated convolutions complex and visually 
             appealing behaviours can be achieved, being both the kernel values and the activation function configurable on the web interface.`
         ]),
+        GRAVITY_PROJECT : new Language("gravityProject", [
+            `Una simulación de gravedad en 2d, hecha como ejercicio para simular la deformación del espacio y las órbitas entre cuerpos causadas por la gravedad.`,
+            `A 2d gravity simulation, made as an exercise to simulate the space deformation and orbits between bodies caused by gravitational influence.`
+        ]),
+        STEGANOGRAPHY_PROJECT : new Language("steganographyProject", [
+            `Un script java de esteganografía que permite ocultar imágenes dentro de otras imágenes, sin pérdida de información en la imagen almacenada. 
+            Hecho para un coding jam, con video de presentación incluido.`,
+            `Java steganography script to allow concealing of images within other images, with no data loss on the stored picture.
+            Made for a coding jam, presentation video included.`
+        ]),
         AND_MANY_MORE : new Language("manyMore", [
             `Y muchos más...`,
             `And many more...`
         ]),
-        DOWNLOAD_MY_RESUME : new Language("resumeDownload", [
-            `Descargar mi curriculum`,
-            `Download my resume`
-        ])
     };
 
     constructor(elementID, text) {
@@ -162,7 +168,9 @@ class Language {
     }
 
     updateDisplayedText() {
-        document.getElementById(this.getElementID()).innerHTML = this.getText();
+        const element = document.getElementById(this.getElementID());
+        if (element)
+            element.innerHTML = this.getText();
     }
 
 }
@@ -179,12 +187,6 @@ function alternateLanguage() {
         Language.MSG_STRINGS[msg].updateDisplayedText();
 }
 
-function setResumeLink() {
-    //let resumeLink = "";
-    //document.getElementById("resumePictureLink").href = resumeLink;
-}
-
 export {
-    alternateLanguage,
-    setResumeLink
+    alternateLanguage
 }
