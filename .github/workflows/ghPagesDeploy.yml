@@ -35,7 +35,7 @@ jobs:
           node-version: 26.x
           
       - name: Set up Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
         
       - name: Build using webpack
         run: |
