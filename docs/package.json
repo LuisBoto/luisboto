@@ -12,17 +12,17 @@
     "dev": "webpack serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "luisboto",
   "license": "ISC",
   "devDependencies": {
-    "css-loader": "^7.1.2",
-    "html-webpack-plugin": "^5.6.3",
+    "css-loader": "^7.1.4",
+    "html-webpack-plugin": "^5.6.7",
     "style-loader": "^4.0.0",
-    "webpack": "^5.99.9",
-    "webpack-cli": "^6.0.1",
-    "webpack-dev-server": "^5.2.1"
+    "webpack": "^5.108.2",
+    "webpack-cli": "^7.1.0",
+    "webpack-dev-server": "^5.2.5"
   },
   "volta": {
-    "node": "22.15.1"
+    "node": "26.4.0"
   }
 }
