@@ -80,8 +80,8 @@ class Language {
             "University of Oviedo, Bachelor's Degree"
         ]),
         EXP_DESCRIPTION : new Language("expDescription", [
-            `Soy Luis, desarrollador de software con base en Madrid. 
-            Me gradué de Ingeniería de Software en la universidad de Oviedo, 
+            `Soy Luis, desarrollador de software con afición a los experimentos. 
+            Me gradué de Ingeniería de Software en la Universidad de Oviedo, 
             y me he especializado en el desarrollo backend de aplicaciones distribuidas en la nube, usando 
             principalmente herramientas como Spring Framework, Micronaut o NodeJS. Considero que mis 
             lenguajes de programación más fuertes son Java y JavaScript, además de saberme desenvolver en Kotlin y Typescript.
@@ -94,7 +94,7 @@ class Language {
             donde los publico y en donde suelo mantener una actividad frecuente. 
             ¡Gracias por visitarme!`,
 
-            `I'm Luis, a software developer based in Madrid. 
+            `I'm Luis, a software developer with a taste for experiments. 
             I graduated in Software Engineering from Oviedo's University, 
             and I've specialized in backend development of cloud based distributed applications, 
             mainly using tools such as Spring Framework or NodeJS. I consider myself 
