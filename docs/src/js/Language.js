@@ -17,7 +17,7 @@ class Language {
             "Full Stack Developer"
         ]),
         THOUGHTWORKS_DATES : new Language("thoughtworksDates", [
-            "04/2025"
+            "2025"
         ]),
         BULLFEET_LOCATION : new Language("bullfeetLocation", [
             "Bullfeet"
@@ -27,8 +27,7 @@ class Language {
             "Lead Developer"
         ]),
         BULLFEET_DATES : new Language("bullfeetDates", [
-            "12/2023 - 04/2025 · 1 año 5 meses",
-            "12/2023 - 04/2025 · 1 year 5 months"
+            "2023 - 2025"
         ]),
         GFT_LOCATION : new Language("gftLocation", [
             "GFT Technologies"
@@ -38,8 +37,7 @@ class Language {
             "Backend Developer"
         ]),
         GFT_DATES : new Language("gftDates", [
-            "11/2023 - 06/2024 · 8 meses",
-            "11/2023 - 06/2024 · 8 months"
+            "2023 - 2024"
         ]),
         AUTENTIA_LOCATION : new Language("autentiaLocation", [
             "Autentia Real Business Solutions"
@@ -49,8 +47,7 @@ class Language {
             "Junior Backend Developer"
         ]),
         AUTENTIA_DATES : new Language("autentiaDates", [
-            "09/2022 - 11/2023 · 1 año 3 meses",
-            "09/2022 - 11/2023 · 1 year 3 months"
+            "2022 - 2023"
         ]),
         MASTERS_NAME : new Language("mastersName", [
             "Cloud Apps: Desarrollo y despliegue de aplicaciones en la nube", 
@@ -68,8 +65,7 @@ class Language {
             "Capgemini Asturias"
         ]),
         INTERNSHIP_DATES : new Language("internshipDates", [
-            "02/2021 - 03/2021 · 2 meses",
-            "02/2021 - 03/2021 · 2 months",
+            "2021"
         ]),
         DEGREE_NAME : new Language("degreeName", [
             "Ingeniería Informática del Software", 
